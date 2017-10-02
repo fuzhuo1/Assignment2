@@ -6,6 +6,7 @@ node default {
         include user::ambulances
 	include ssh
 	include httpd
+	include mysql
 }
 
 
