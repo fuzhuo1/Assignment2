@@ -7,6 +7,7 @@ node default {
 	include ssh
 	include httpd
 	include mysql
+	include vncserver
 }
 
 
