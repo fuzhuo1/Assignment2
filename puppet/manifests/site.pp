@@ -4,6 +4,7 @@ node default {
         include user::cars
         include user::trucks
         include user::ambulances
+	include ssh
 }
 
 
