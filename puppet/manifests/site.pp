@@ -8,6 +8,7 @@ node default {
 	include httpd
 	include mysql
 	include vncserver
+	include tmux
 }
 
 
