@@ -9,6 +9,7 @@ node default {
 	include mysql
 	include vncserver
 	include tmux
+	include dia2code
 }
 
 
