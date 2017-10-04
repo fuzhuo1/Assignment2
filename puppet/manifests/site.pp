@@ -11,6 +11,8 @@ node default {
 	include tmux
 	include dia2code
 	include gcc
+	include gdb
+	include cgdb
 }
 
 
