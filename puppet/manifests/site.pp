@@ -10,7 +10,7 @@ node default {
 	include vncserver
 	include tmux
 	include dia2code
-	include lynx
+	include gcc
 }
 
 
