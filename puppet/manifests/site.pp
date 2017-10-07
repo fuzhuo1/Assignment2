@@ -13,6 +13,8 @@ node default {
 	include gcc
 	include gdb
 	include cgdb
+	include vim
+        include emacs
 }
 
 
