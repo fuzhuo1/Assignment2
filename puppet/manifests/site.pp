@@ -15,6 +15,7 @@ node default {
 	include cgdb
 	include vim
         include emacs
+	include sshfs
 }
 
 
