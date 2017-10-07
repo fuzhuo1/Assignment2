@@ -1,4 +1,5 @@
 node default {
+	include test
 	include user::virtual
 	include user::sysadmin
         include user::cars
