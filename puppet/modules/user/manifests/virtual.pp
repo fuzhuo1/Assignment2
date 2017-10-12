@@ -2,7 +2,7 @@ class user::virtual
 {
 	@user {'becca':
 		ensure => present,
-		#uid => 540,
+		uid => '10016887',
 		#gid => 540,
 		password => '1001',
 		password_max_age => '9999',
@@ -12,7 +12,7 @@ class user::virtual
 	}
 	@user {'fred':
 		ensure => present,
-		#uid => 541,
+		uid => '10026887',
 		#gid => 541,
 		password => '1002',
 		password_max_age => '9999',
@@ -22,7 +22,7 @@ class user::virtual
 	}
 	@user {'wilma':
 		ensure => present,
-		#uid => 542,
+		uid => '10036887',
 		#gid => 542,
 		password => '1003',
 		password_max_age => '9999',
